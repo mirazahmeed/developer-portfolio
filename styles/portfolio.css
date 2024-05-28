@@ -1,0 +1,56 @@
+/* common shared styles */
+body{
+    margin: 0%;
+}
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 3px;
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    padding: 12px 21px;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
